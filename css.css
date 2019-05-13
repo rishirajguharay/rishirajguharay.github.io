@@ -1,0 +1,117 @@
+*{
+	margin: 4px;
+	padding: 0;
+	font-family: 'Stylish', sans-serif;
+}
+.motu{
+	
+	float: left;
+}
+
+.navi ul li{
+	display: inline-block;
+	float: right;
+}
+.navi ul li a{
+	padding: 30px;
+	margin: 4px;
+	text-decoration: none;
+	color: black;
+	line-height: 87px;
+}
+
+.heading{
+	background-color: red;
+
+}
+	
+
+body{
+	background-image: url('cloud.jpg');
+	background-size: 2000px 750px;
+}
+.pfc{
+	margin-top:60px;
+	margin-left: 10px;
+	padding-left: 0px;
+	border: :0px;
+
+}
+.tm-header{
+	background: linear-gradient(to right,grey,#eeeeee);
+}
+.para{
+	font-size: 50px;
+}
+.about{
+	font-size: 30px;
+	font-color: black;
+	font-weight:bold;
+
+}
+.spc{
+	float: left;
+
+}
+.int{
+	float: right;
+	margin-top: 150px;
+	margin-right: 150px;
+}
+.guitar{
+	font-weight: bold;
+	font-size: 50px;
+}
+.violin{
+	font-weight: bold;
+	font-size: 30px;
+}
+.con{
+	float: right;
+	margin-top: 125px;
+	margin-right: 150px;
+	margin-bottom: 50px;
+}
+.cid{
+	float: left;
+}
+.root{
+	margin-top: 100px;
+}
+.public{
+    font-size: 30px;
+	font-color: black;
+	font-weight:bold;
+}
+.navi ul li a:hover{
+	color: blue;
+}
+
+.navi ul li a:active{
+	color: red;
+}
+
+.navi ul li a:visited{
+	color: brown;
+}
+
+.ninja{
+	text-align: center;
+	background: white;
+	padding:2px; 
+	margin-bottom: 1px;
+}
+
+.tm-header::after{
+    content: " ";
+    clear: both;
+    display: block;
+    visibility: none;
+
+}
+.details{
+	margin-bottom: 0px;
+	font-weight: bold;
+	font-size: 50px;
+
+}
